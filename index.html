@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appeals Discord Bot</title>
+    <link rel="icon" href="assets/images/favicon.png" />
+
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/queries.css" />
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="top-padding">
+        <a class="nav-heading" href="/index.html">Appeals</a>
+      </h1>
+      <nav class="navigation top-padding">
+        <ul class="nav-list-head">
+          <li class="nav-list">
+            <a class="light-color nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-list">
+            <a class="light-color nav-link" href="/#stats">Statistics</a>
+          </li>
+          <li class="nav-list">
+            <a class="light-color nav-link" href="/#features">Features</a>
+          </li>
+          <li class="nav-list">
+            <a class="light-color nav-link" href="/#cta">Invite Bot</a>
+          </li>
+        </ul>
+
+        <a
+          href="https://discord.com/api/oauth2/authorize?client_id=1033177963144949850&redirect_uri=https%3A%2F%2Fappealsbot.xyz%2Fdashboard&response_type=code&scope=identify%20guilds"
+          class="nav-btn btn-open"
+        >
+          Dashboard
+          <img
+            class="nav-btn-img rotate"
+            src="assets/images/sign-in.svg"
+            alt="Nav Btn Img"
+          />
+        </a>
+      </nav>
+
+      <img
+        class="menu-open top-padding"
+        src="assets/images/bars.svg"
+        alt="Menu Icon for Tablets & Mobiles"
+      />
+
+      <img
+        class="menu-close top-padding"
+        src="assets/images/cross.svg"
+        alt="Menu Icon for Tablets & Mobiles"
+      />
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <h2 class="main-heading">Manage your ban appeals like a pro.</h2>
+        <p class="main-paragraph light-color">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="hero-btns space-nine">
+          <a
+            href="https://discord.com/api/oauth2/authorize?client_id=1033177963144949850&permissions=1632087960775&redirect_uri=https%3A%2F%2Fappealsbot.xyz%2Fdashboard&scope=bot"
+            class="hero-btn-primary"
+          >
+            Invite Appeals
+            <img
+              class="hero-btn-icon"
+              src="assets/images/arrow-right.svg"
+              alt="Arrow Right Icon"
+            />
+          </a>
+
+          <a href="https://discord.gg/9uNKm5VdAK" class="hero-btn-secondary">
+            <img
+              class="hero-btn-icon"
+              src="assets/images/users.svg"
+              alt="Arrow Right Icon"
+            />
+            Support Server
+          </a>
+        </div>
+      </section>
+
+      <div class="statistics space-twelve" id="stats">
+        <div class="statistic-div">
+          <p class="statistic-count">15,000</p>
+          <p class="statistic-heading light-color">Total User Count</p>
+        </div>
+
+        <div class="statistic-div">
+          <p class="statistic-count">200</p>
+          <p class="statistic-heading light-color">Server Count</p>
+        </div>
+
+        <div class="statistic-div">
+          <p class="statistic-count">1500</p>
+          <p class="statistic-heading light-color">Appeals Count</p>
+        </div>
+
+        <div class="statistic-div">
+          <p class="statistic-count">50</p>
+          <p class="statistic-heading light-color">Appeal Features</p>
+        </div>
+      </div>
+
+      <section class="features space-twelve" id="features">
+        <div class="feature-div">
+          <div class="feature-content-div">
+            <p class="heading-tag">Features</p>
+            <p class="feature-heading">Customized Ban Appeal Forms.</p>
+            <p class="feature-text light-color">
+              Users can make a custom ban appeal forms for people to apply. You
+              can choose from a bunch of options available from the dashboard.
+            </p>
+          </div>
+          <div class="feature-image-div">
+            <img
+              class="feature-image"
+              src="assets/images/first.png"
+              alt="Feature Image"
+            />
+          </div>
+        </div>
+
+        <div class="feature-div">
+          <div class="feature-content-div">
+            <p class="heading-tag">Features</p>
+            <p class="feature-heading">Automatically Sent</p>
+            <p class="feature-text light-color">
+              When a user is banned from your server, our systems automatically
+              send a private message to the user with information regarding
+              their punishment and a form customized to your likings
+              specifically for your server, along with further information on
+              how to appeal.
+            </p>
+          </div>
+          <div class="feature-image-div feature-grid-column">
+            <img
+              class="feature-image"
+              src="assets/images/second.png"
+              alt="Feature Image"
+            />
+          </div>
+        </div>
+
+        <div class="feature-div">
+          <div class="feature-content-div">
+            <p class="heading-tag">Features</p>
+            <p class="feature-heading">Easy to Use</p>
+            <p class="feature-text light-color">
+              When a user appeals, their form submissions, along with
+              information regarding their ban, are automatically sent to a
+              channel in your server, where your moderation team can choose to
+              unban the user or deny the appeal.
+            </p>
+          </div>
+          <div class="feature-image-div">
+            <img
+              class="feature-image"
+              src="assets/images/third.png"
+              alt="Feature Image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="space-twelve" id="cta">
+        <div class="cta-card">
+          <div class="cta-content">
+            <p class="cta-heading">
+              Sure, I think it’s time to invite the bot to your own server.
+            </p>
+            <p class="cta-text light-color">
+              If you’re facing issues with the bot, kindly join the support
+              server.
+            </p>
+            <div class="cta-btns">
+              <a
+                class="cta-btn-primary"
+                href="https://discord.com/api/oauth2/authorize?client_id=1033177963144949850&permissions=1632087960775&redirect_uri=https%3A%2F%2Fappealsbot.xyz%2Fdashboard&scope=bot"
+                >Invite Appeals
+                <img
+                  class="nav-btn-img"
+                  src="assets/images/arrow-right.svg"
+                  alt="Invite Appeals Icon"
+              /></a>
+              <a class="cta-btn-secondary" href="https://discord.gg/9uNKm5VdAK"
+                >Support Server</a
+              >
+            </div>
+          </div>
+          <img
+            class="cta-image"
+            src="assets/images/discord.png"
+            alt="Discord IMG"
+          />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p class="copyright">
+        Copyright © 2022 Appeals Discord Bot. Designed by
+        <a class="copyright-link" href="https://afankhan.com">Afan K</a>.
+      </p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
